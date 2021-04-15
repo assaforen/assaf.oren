@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a6c61fb-bd5b-4508-bcfc-e960da581650" name="Default Changelist" comment="" />
+    <list default="true" id="0a6c61fb-bd5b-4508-bcfc-e960da581650" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV Assaf/Me.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV Assaf/plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV Assaf/plan.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,10 +32,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CV Assaf" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\assaf.oren\CV Assaf" />
       <recent name="C:\Users\user\PycharmProjects\assaf.oren" />
     </key>
   </component>
@@ -45,7 +50,7 @@
       <updated>1615879464915</updated>
       <workItem from="1615879470393" duration="11059000" />
       <workItem from="1616233295832" duration="357000" />
-      <workItem from="1618488189119" duration="3198000" />
+      <workItem from="1618488189119" duration="5168000" />
     </task>
     <servers />
   </component>
