@@ -1,0 +1,58 @@
+
+.grid-container{
+
+   display: grid;
+   justify-items: center;
+   grid-template-columns: 20vw auto auto;
+   grid-template-rows: auto;
+   grid-gap: 1vw;
+   margin: 1vw;
+   padding: 1vw;
+   max-width: 100%;
+}
+.Buttons{
+    padding: 0.5vw;
+    margin: 1vw;
+    width: 60vw;
+    height: 30vw;
+}
+.Details{
+    grid-column: 1 / span 2;
+    background-color:rgba(226, 222, 209, 0.63);
+    padding: 1vw;
+    width: 60vw;
+    height: 30vw;
+}
+
+.image{
+    grid-column: 3 / span 1;
+    background-color:rgba(226, 222, 209, 0.63);
+    width: 35vw;
+    height: 30vw;
+}
+
+.contact{
+    grid-column: 1/span 1;
+    width: 20vw;
+    height: 15vw;
+}
+
+.linkedin {
+  border: 0.01vw solid #bf9f5a;
+  margin-bottom: 0.1vw;
+}
+
+@keyframes pulse{
+    0%,100%{
+        border: solid #bf9f5a;
+    }
+    50%{
+        border: solid  #777777;
+    }
+
+}
+
+@font-face{
+    font-family: alphab;
+    src: url("../alphab.ttf");
+}
