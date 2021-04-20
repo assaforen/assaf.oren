@@ -1,6 +1,5 @@
 
 .grid-container{
-
    display: grid;
    justify-items: center;
    grid-template-columns: 20vw auto auto;
@@ -18,7 +17,7 @@
 }
 .Details{
     grid-column: 1 / span 2;
-    background-color:rgba(226, 222, 209, 0.63);
+    background-color:rgba(233, 245, 138,0.2);
     padding: 1vw;
     width: 60vw;
     height: 30vw;
@@ -26,20 +25,28 @@
 
 .image{
     grid-column: 3 / span 1;
-    background-color:rgba(226, 222, 209, 0.63);
-    width: 35vw;
-    height: 30vw;
-}
-
-.contact{
-    grid-column: 1/span 1;
-    width: 20vw;
-    height: 15vw;
+    background-color:rgba(233, 245, 138,0.2);
+    width: 30vw;
+    height: 32vw;
 }
 
 .linkedin {
-  border: 0.01vw solid #bf9f5a;
   margin-bottom: 0.1vw;
+}
+.DownloadButton{
+    font-family: Aharoni;
+    font-size: 1.5vw;
+    grid-column: 2 / span 6;
+    border: solid #bf9f5a;
+    width: 15vw;
+    height: 10vw;
+    background-color: beige;
+    border-radius: 100%;
+    animation: pulse 2s infinite ;
+    text-align:  center;
+    margin: 0.5vw;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 
 @keyframes pulse{
