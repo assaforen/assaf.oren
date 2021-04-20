@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a6c61fb-bd5b-4508-bcfc-e960da581650" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/Assaf Oren CV.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/CSS/cv.css" beforeDir="false" afterPath="$PROJECT_DIR$/CV Assaf/CSS/cv.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CV Assaf/HTML/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV Assaf/HTML/cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/UI/linkedin picture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/glacial-indifference.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +54,7 @@
       <workItem from="1615879470393" duration="11059000" />
       <workItem from="1616233295832" duration="357000" />
       <workItem from="1618488189119" duration="5892000" />
-      <workItem from="1618910098463" duration="8487000" />
+      <workItem from="1618910098463" duration="8944000" />
     </task>
     <servers />
   </component>
