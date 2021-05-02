@@ -1,0 +1,52 @@
+.image{
+    grid-column: 4 / span 1;
+    grid-row: 2/ span 1;
+    background-color:rgba(233, 245, 138,0.2);
+    width: 20vw;
+    height: 20vw;
+}
+
+.DownloadButton{
+    font-family: Aharoni;
+    font-size: 2vw;
+    grid-column: 2 / span 6;
+    border: burlywood;
+    width: 20vw;
+    height: 10vw;
+    background-color: blanchedalmond;
+    border-radius: 20%;
+    animation: pulse 1s infinite ;
+    text-align:  center;
+    margin: 0.5vw;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.header{
+    color: black;
+    font-size: 40px;
+    font-family: Calibri;
+    grid-column: 2 / span 3;
+
+}
+.NEXTheader{
+    color: black;
+    font-size: 19px;
+    font-family: Calibri;
+    grid-column: 1 / span 3;
+
+}
+.text{
+    background-color: wheat ;
+    grid-column: 2 / span 3;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: wheat ;
+  padding: 10px;
+  border-radius: 10px;
+}
