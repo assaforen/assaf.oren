@@ -1,15 +1,20 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for ,render_template
 from random import getrandbits
 
 app = Flask(__name__)
 
 @app.route('/')
 def Main_Page():
-    return 'Welcome To the Main Page!'
+    return render_template('FinalPageCV.html')
 
-@app.route('/home')
+@app.route('/assignment8')
 def Home_Page():
-    return redirect('/')
+    return render_template('assignment8.html',
+                           name={'guest'},
+                           user={'firstname': 'Assaf', 'lastname': 'Oren'},
+                           contact={'whatsapp': '+972545894707', 'email': 'assafore@post.bgu.ac.il',
+                                    'facebook': 'look for Assaf Oren'},
+                           gender=['boy'])
 
 @app.route('/customers')
 def Welcome_Customer():

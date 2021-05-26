@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Assaf Oren CV</title>
-        <link rel="stylesheet" href="../CSS/FinalPageCV.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='CSS/FinalPageCV.css') }}">
     </head>
     <body>
 
@@ -16,11 +16,11 @@
             </div>
 
             <div style="position: sticky; top: 0;">
-                <a href="../UX/AssafOrenCV.pdf" ><button class= 'DownloadButton' >Download CV</button></a>
+                <a href="{{ url_for('static', filename='AssafOrenCV.pdf') }}" ><button class= 'DownloadButton' >Download CV</button></a>
             </div>
 
             <div class="image" align="center">
-                 <img src="../UI/Me.jpeg" alt= "Me" style="max-width: 75%; height: auto;">
+                <img src="{{ url_for('static', filename='Me.jpeg') }}" alt="">
             </div>
 
                 <div class="text">
@@ -97,7 +97,7 @@
             </div>
 
             <div class="linkedin">
-                <a href="../HTML/AssafOrenLinkedIn.html"><img src="../UI/linkedinpicture.jpg" alt= "linkedin picture"style="max-width: 40%; height: auto;"></a>
+                <img src="{{ url_for('static', filename='linkedinpicture.jpg') }}" alt="">
             </div>
         </div>
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='CSS/ass.css') }}">
+</head>
+<body style="font-family: Arial;font-size: 20px; text-align: center">
+<h2> My name is : {{ user.firstname }} {{ user.lastname }} </h2>
+<h4 class= "{% if user.gender == 'boy' %} boy {%  else %} girl {% endif %}"> and im a boy </h4>
+
+<h2> My contact info : </h2>
+
+<ol>
+   {% for k,v in contact.items() %}
+       {% if k == 'whatsapp' %}
+       <l1 style = "color:green ; font-weight: bold"> {{ k }} : {{ v }} </l1>
+           <br>
+
+        {% else %}
+ <l1 style = "color:red ; font-weight: bold"> {{ k }} : {{ v }} </l1>
+        <br>
+       {% endif %}
+    {% endfor %}
+
+{#    {% if contact == 'ws' %}#}
+{#        <l1 style = "color:green ; font-weight: bold"> {{ hobby }} </l1>#}
+{#        {% else %}#}
+{#        <l1  style = "font-weight: bold"> {{ contact }} </l1>#}
+{#        {% endif %}#}
+{#        <br>#}
+{#        <br>#}
+{#{% endfor %}#}
+</ol>
+
+</body>
+</html>

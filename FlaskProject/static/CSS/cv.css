@@ -27,8 +27,8 @@
 .image{
     grid-column: 3 / span 1;
     background-color:rgba(233, 245, 138,0.2);
-    width: 30vw;
-    height: 32vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 .linkedin {
@@ -62,5 +62,5 @@
 
 @font-face{
     font-family: alphab;
-    src: url("../alphab.ttf");
+    src: url("../../../CV Assaf/alphab.ttf");
 }
