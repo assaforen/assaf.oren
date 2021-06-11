@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% include('login.html') %}
+
+
+    <h1>Search Form:</h1>
+    <form method="GET" action="/assignment9">
+        <input name="user_search" type="text" placeholder="user search">
+        <input type="submit">
+    </form>
+
+    {% if curr_method == "GET" %}
+        {% if not user_search %}
+            <h2>print all users:</h2>
+            <ul>
+                {% for key in users %}
+                    <li> {{ key }}</li>
+                {% endfor %}
+            </ul>
+        {% elif  user_search in users %}
+            <h2> {{ user_search }} yes!!! here is the user!</h2>
+        {% else %}
+            <h2>no user found!</h2>
+        {% endif %}
+    {% endif %}
+    <br>
+
+       <h1>Registration form:</h1>
+    {% if 'nickname' in session and session['nickname'] %}
+        <button type="submit" onclick="location.href='logout'">Logout</button>
+    {% else %}
+         <form method="POST" action="/assignment9">
+             <input name="user_name" type="text" placeholder="enter user name">
+             <input type="submit">
+         </form>
+    {% endif %}
+    <hr>
+    <br>
+</body>
+</html>

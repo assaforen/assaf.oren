@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 10</title>
+</head>
+<body>
+    <h3>USER</h3>
+    <ul>
+        {% for user in users %}
+            <li>Name of the USER: {{ user.USER_NAME }}, Nickname of the user: {{ user.NICK_NAME }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>INSERT USER</h3>
+    <form method="POST" action="/insertuserstoDB">
+        <input name="USER_NAME" type="text" placeholder="Insert USER NAME">
+        <input name="NICK_NAME" type="text" placeholder="Insert NICK NAME">
+        <input type="submit">
+    </form>
+
+    <h3>DELETE USER</h3>
+    <form method="POST" action="/deleteuserstoDB">
+        <input name="USER_NAME" type="text" placeholder="DELETE this USER NAME">
+        <input type="submit">
+    </form>
+
+        <h3>UPDATE USER</h3>
+    <form method="POST" action="/updateusersinDB">
+        <input name="USER_NAME" type="text" placeholder="Insert USER NAME">
+        <input name="NICK_NAME" type="text" placeholder="Insert NICK NAME">
+        <input type="submit">
+    </form>
+    <br>
+    <br>
+    <button type="submit" onclick="location.href='/'">BACK</button>
+</body>
+</html>

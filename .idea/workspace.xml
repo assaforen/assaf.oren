@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a6c61fb-bd5b-4508-bcfc-e960da581650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FlaskProject/static/CSS/ass.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskProject/templates/assignment8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskProject/templates/block.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskProject/templates/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskProject/Pages/assignment10/Templates/assignment10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskProject/Pages/assignment10/assignment10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskProject/templates/assignment9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskProject/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskProject-Assignment9/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskProject-Assignment9/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/CSS/FinalPageCV.css" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/static/CSS/FinalPageCV.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/CSS/cv.css" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/static/CSS/cv.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/HTML/AssafOrenLinkedIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/templates/AssafOrenLinkedIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/HTML/FinalPageCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/templates/FinalPageCV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/HTML/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/templates/cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/UI/Me.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/static/Me.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/UI/linkedinpicture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/static/linkedinpicture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/UI/main screen.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/static/main screen.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/UX/Assaf Oren CV.docx" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/static/Assaf Oren CV.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/UX/AssafOrenCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/static/AssafOrenCV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV Assaf/UX/plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/static/plan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FlaskProject/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskProject/venv/Lib/site-packages/flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/venv/Lib/site-packages/flask/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskProject/venv/Lib/site-packages/flask/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/venv/Lib/site-packages/flask/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskProject/venv/Lib/site-packages/werkzeug/_reloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskProject/venv/Lib/site-packages/werkzeug/_reloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskProject-Assignment9/venv/Lib/site-packages/click/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject-Assignment9/venv/Lib/site-packages/click/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskProject-Assignment9/venv/Lib/site-packages/flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject-Assignment9/venv/Lib/site-packages/flask/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskProject-Assignment9/venv/Lib/site-packages/flask/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject-Assignment9/venv/Lib/site-packages/flask/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskProject-Assignment9/venv/Lib/site-packages/flask/scaffold.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject-Assignment9/venv/Lib/site-packages/flask/scaffold.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskProject-Assignment9/venv/Lib/site-packages/werkzeug/_reloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskProject-Assignment9/venv/Lib/site-packages/werkzeug/_reloader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,22 +50,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="db2&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FlaskProject/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FlaskProject/Pages/Assignment 10" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\assaf.oren\FlaskProject\Pages\Assignment 10" />
       <recent name="C:\Users\user\PycharmProjects\assaf.oren\FlaskProject\templates" />
       <recent name="C:\Users\user\PycharmProjects\assaf.oren\FlaskProject\static" />
       <recent name="C:\Users\user\PycharmProjects\assaf.oren\CV Assaf\CSS" />
       <recent name="C:\Users\user\PycharmProjects\assaf.oren\CV Assaf" />
-      <recent name="C:\Users\user\PycharmProjects\assaf.oren" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\assaf.oren\FlaskProject\Pages\Assignment 10" />
       <recent name="C:\Users\user\PycharmProjects\assaf.oren\FlaskProject\static" />
       <recent name="C:\Users\user\PycharmProjects\assaf.oren\FlaskProject\templates" />
     </key>
@@ -119,6 +122,7 @@
       <workItem from="1621939790201" duration="670000" />
       <workItem from="1621959252065" duration="654000" />
       <workItem from="1622009946897" duration="5641000" />
+      <workItem from="1623417943334" duration="8120000" />
     </task>
     <servers />
   </component>
@@ -141,6 +145,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cv_html$Flask__FlaskProject_app_py_.coverage" NAME="Flask (FlaskProject/app.py) Coverage Results" MODIFIED="1622015230539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cv_html$Flask__FlaskProject_app_py_.coverage" NAME="Flask (FlaskProject/app.py) Coverage Results" MODIFIED="1623425090437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
